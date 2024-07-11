@@ -1,0 +1,11 @@
+name: my-first-website-lse
+region: eu-central-1
+frontend:
+  path: .
+  publish: dist
+  scripts:
+    deploy:
+      - npm install
+      - npm run build
+  subdomain: black-skinny-kite
+yamlVersion: 2

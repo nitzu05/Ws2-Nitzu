@@ -1,0 +1,16 @@
+{
+    "name": "my-first-website-lse",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "build": "node build.js",
+      "start": "http-server dist"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "http-server": "^0.12.3"
+    }
+  }
+  
